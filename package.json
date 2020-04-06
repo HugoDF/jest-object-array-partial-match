@@ -11,11 +11,13 @@
   "xo": {
     "prettier": true,
     "space": true,
-    "globals": ["test", "expect"]
+    "globals": [
+      "test",
+      "expect"
+    ]
   },
   "license": "MIT",
   "dependencies": {
-    "jest": "^25.2.7",
-    "jest-cli": "^24.9.0"
+    "jest": "^25.2.7"
   }
 }
