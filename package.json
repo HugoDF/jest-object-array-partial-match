@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "jest": "^24.9.0",
+    "jest": "^25.2.7",
     "jest-cli": "^24.9.0"
   }
 }
