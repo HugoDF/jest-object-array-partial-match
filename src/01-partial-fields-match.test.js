@@ -1,10 +1,10 @@
 test('id should match', () => {
-  const obj = {
+  const object = {
     id: '111',
     productName: 'Jest Handbook',
     url: 'https://jesthandbook.com'
   };
-  expect(obj).toEqual(
+  expect(object).toEqual(
     expect.objectContaining({
       id: '111'
     })
@@ -12,12 +12,12 @@ test('id should match', () => {
 });
 
 test('id and productName should match', () => {
-  const obj = {
+  const object = {
     id: '111',
     productName: 'Jest Handbook',
     url: 'https://jesthandbook.com'
   };
-  expect(obj).toEqual(
+  expect(object).toEqual(
     expect.objectContaining({
       id: '111',
       productName: 'Jest Handbook'
