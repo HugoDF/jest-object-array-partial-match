@@ -1,4 +1,7 @@
-const users = [{id: 1, name: 'Hugo'}, {id: 2, name: 'Francesco'}];
+const users = [
+  {id: 1, name: 'Hugo'},
+  {id: 2, name: 'Francesco'}
+];
 test('example 1 > we should have ids 1 and 2', () => {
   const [first, second] = users;
   expect(first.id).toEqual(1);
