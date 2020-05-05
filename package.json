@@ -18,6 +18,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "jest": "^25.5.4"
+    "jest": "^26.0.0"
   }
 }
