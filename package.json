@@ -6,7 +6,7 @@
     "format": "xo . --fix"
   },
   "devDependencies": {
-    "xo": "^0.30.0"
+    "xo": "^0.32.0"
   },
   "xo": {
     "prettier": true,
